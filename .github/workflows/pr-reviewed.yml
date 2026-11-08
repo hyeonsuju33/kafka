@@ -28,7 +28,7 @@ on:
 jobs:
   save-pr-number:
     name: Save PR Number
-    runs-on: ubuntu-latest
+    runs-on: xenoci-2vcpu-ubuntu-2404
     steps:
       - name: Env
         run: printenv
