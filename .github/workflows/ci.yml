@@ -27,6 +27,8 @@ on:
   pull_request:
     types: [ opened, synchronize, ready_for_review, reopened ]
     branches:
+      - 'pr-train'
+      - 'xeno-base'
       - 'trunk'
       - '4.2'
 
