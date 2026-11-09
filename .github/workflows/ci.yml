@@ -38,6 +38,8 @@ concurrency:
 
 jobs:
   build:
+    permissions:
+      contents: write
     uses: ./.github/workflows/build.yml
     with:
       is-trunk: ${{ github.ref == 'refs/heads/trunk' }}
